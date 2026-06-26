@@ -1,0 +1,86 @@
+{
+  "data": [
+    {
+      "id": "Test/MiniMax-M2.5",
+      "hugging_face_id": "",
+      "name": "Test/MiniMax-M2.5",
+      "created": 1781575605,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "quantization": "fp16",
+      "context_length": 204800,
+      "max_output_length": 0,
+      "pricing": {
+        "prompt": "0.000000309",
+        "completion": "0.000001236",
+        "image": "0",
+        "request": "0",
+        "duration": "0",
+        "input_cache_read": "0.000000031"
+      },
+      "supported_sampling_parameters": [
+        "temperature",
+        "top_p",
+        "top_k",
+        "frequency_penalty",
+        "presence_penalty",
+        "stop",
+        "seed",
+        "max_tokens"
+      ],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "MiniMax-M2.5"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "Test/MiniMax-M2.7",
+      "hugging_face_id": "",
+      "name": "Test/MiniMax-M2.7",
+      "created": 1781575605,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "quantization": "fp16",
+      "context_length": 2000000,
+      "max_output_length": 131000,
+      "pricing": {
+        "prompt": "0.000000309",
+        "completion": "0.000001236",
+        "image": "0",
+        "request": "0",
+        "duration": "0",
+        "input_cache_read": "0.000000062"
+      },
+      "supported_sampling_parameters": [
+        "temperature",
+        "top_p",
+        "top_k",
+        "frequency_penalty",
+        "presence_penalty",
+        "stop",
+        "seed",
+        "max_tokens"
+      ],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "MiniMax-M2.7"
+      },
+      "datacenters": []
+    }
+  ]
+}
