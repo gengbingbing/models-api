@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "id": "Test/MiniMax-M2.5",
+      "id": "MiniMax-M2.5",
       "hugging_face_id": "",
       "name": "Test/MiniMax-M2.5",
       "created": 1781575605,
@@ -42,9 +42,9 @@
       "datacenters": []
     },
     {
-      "id": "Test/MiniMax-M2.7",
+      "id": "MiniMax-M2.7",
       "hugging_face_id": "",
-      "name": "Test/MiniMax-M2.7",
+      "name": "MiniMax-M2.7",
       "created": 1781575605,
       "input_modalities": [
         "text"
