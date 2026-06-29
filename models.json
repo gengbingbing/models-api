@@ -1,9 +1,9 @@
 {
   "data": [
     {
-      "id": "Allin/MiniMax-M2.5",
+      "id": "Allin0629/MiniMax-M3",
       "hugging_face_id": "",
-      "name": "Allin/MiniMax-M2.5",
+      "name": "MiniMax-M3",
       "created": 1781575605,
       "input_modalities": [
         "text"
@@ -12,16 +12,30 @@
         "text"
       ],
       "quantization": "fp16",
-      "context_length": 204800,
+      "context_length": 1048576,
       "max_output_length": 0,
-      "pricing": {
-        "prompt": "0.000000309",
-        "completion": "0.000001236",
-        "image": "0",
-        "request": "0",
-        "duration": "0",
-        "input_cache_read": "0.000000031"
-      },
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": 512000,
+          "prompt": "0.000000309",
+          "completion": "0.000001236",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0.000000062"
+        },
+        {
+          "range_start": 512000,
+          "range_end": null,
+          "prompt": "0.000000618",
+          "completion": "0.000002471",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0.000000124"
+        }
+      ],
       "supported_sampling_parameters": [
         "temperature",
         "top_p",
@@ -32,53 +46,14 @@
         "seed",
         "max_tokens"
       ],
-      "supported_features": [],
+      "supported_features": [
+        "vision"
+      ],
       "is_ready": true,
       "is_free": false,
       "discount_to_user": 0,
       "openrouter": {
-        "slug": "MiniMax-M2.5"
-      },
-      "datacenters": []
-    },
-    {
-      "id": "Allin/MiniMax-M2.7",
-      "hugging_face_id": "",
-      "name": "Allin/MiniMax-M2.7",
-      "created": 1781575605,
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "quantization": "fp16",
-      "context_length": 2000000,
-      "max_output_length": 131000,
-      "pricing": {
-        "prompt": "0.000000309",
-        "completion": "0.000001236",
-        "image": "0",
-        "request": "0",
-        "duration": "0",
-        "input_cache_read": "0.000000062"
-      },
-      "supported_sampling_parameters": [
-        "temperature",
-        "top_p",
-        "top_k",
-        "frequency_penalty",
-        "presence_penalty",
-        "stop",
-        "seed",
-        "max_tokens"
-      ],
-      "supported_features": [],
-      "is_ready": true,
-      "is_free": false,
-      "discount_to_user": 0,
-      "openrouter": {
-        "slug": "MiniMax-M2.7"
+        "slug": "MiniMax-M3"
       },
       "datacenters": []
     }
